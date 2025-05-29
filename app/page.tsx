@@ -1,101 +1,136 @@
-import Image from "next/image";
+import Image from "next/image"
+import Jiei from '../public/jiei.jpg'
+import Link from "next/link"
+import './globals.css'
+import App from "@/component/swiper/swiper"
+import IATF1 from '../public/IATF1.png'
+import IATF2 from '../public/IATF2.png'
+import iso9001 from '../public/9001.png'
+import iso14001 from '../public/14001.png'
 
-export default function Home() {
+import { CarFilled, TeamOutlined, AndroidOutlined, AreaChartOutlined } from "@ant-design/icons"
+export default function Index() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div>
+      <div className="box">
+        <div className="container">
+          <div className="introHomePage">
+            <div className="introContent">
+              <div className="topicHomePage">
+                <h1>JIEI(THAILAND).CO.,LTD</h1>
+              </div>
+              <div className="contentHomePage">
+                <p>
+                  We are a specialist in the manufacturing of rubber components for the automotive industry, such as car door seals. Our operations emphasize quality, safety, and environmental responsibility. The company is certified with international standards including ISO 9001, ISO 14001, and IATF 16949, reflecting our commitment to continuous improvement in our production processes to ensure maximum customer satisfaction.
+                </p>
+              </div>
+              <Link href={'/product'}>
+                <div className="btn-intro-home-page">
+                  <button>Information</button>
+                </div>
+              </Link>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+              <div className="detel">
+                <div className="boxDetel">
+                  <p className="topicISO">ISO 9001</p>
+                  <p className="dispriptionISO">มาตรฐานด้านคุณภาพ</p>
+                </div>
+                <div className="boxDetel">
+                  <p className="topicISO" >ISO 14001</p>
+                  <p className="dispriptionISO">มาตรฐานด้านสิ่งแวดล้อม</p>
+                </div>
+                <div className="boxDetel">
+
+                  <p className="topicISO">IATF 16949</p>
+                  <p className="dispriptionISO">มาตรฐานด้านรถยนต์</p>
+                </div>
+
+              </div>
+            </div>
+            <div className="image-intro-box">
+              <Image src={Jiei} alt="JIEI(THAILAND).CO.,LTD" priority className="image-intro" />
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
+
+
+      <div className="card-box">
+        <div className="card-all">
+          <div className="card">
+            <div className="image-card">
+              <CarFilled className="icon-intro" />
+            </div>
+            <div className="content-card">
+              <p>Our company, JIEI (Thailand) is focused on the ASEAN region and offers a variety of rubber products for construction materials, automobiles, and other industrial uses. </p>
+            </div>
+          </div>
+
+
+          <div className="card">
+            <div className="image-card">
+              <AndroidOutlined className="icon-intro" />
+            </div>
+            <div className="content-card">
+              <p>Our high-precision technology utilizes proprietary techniques and boasts real results in supporting the creation of beautiful and comfortable vehicles.</p>
+            </div>
+          </div>
+
+
+          <div className="card">
+            <div className="image-card">
+              <TeamOutlined className="icon-intro" />
+            </div>
+            <div className="content-card">
+              <p>Committed to responding to the demands of our customers, we are always incorporating the latest state-of-the-art technology. </p>
+            </div>
+          </div>
+
+
+
+          <div className="card">
+            <div className="image-card">
+              <AreaChartOutlined className="icon-intro" />
+            </div>
+            <div className="content-card">
+              <p>We fully support a schedule that extends from richly-experienced design planning and material development to mass production through industrial methods development. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <App />
+
+      <div className="container-iatf16949">
+        <h1 className="Certificate">IATF16949 Certificate</h1>
+        <div className="iatf16949">
+          <div className="image-iatf">
+            <Image className="iatfimage" src={IATF1} alt="JIEI(THAILAND).CO.,LTD" priority />
+          </div>
+          <div className="image-iatf">
+            <Image className="iatfimage" src={IATF2} alt="JIEI(THAILAND).CO.,LTD" priority />
+          </div>
+        </div>
+
+        <div className="ISO9001">
+          <div className="iso-box">
+            <h1>ISO9001 Certificate </h1>
+            <h1>ISO14001 Certificate</h1>
+          </div>
+
+          <div className="iatf16949">
+            <div className="image-iatf">
+              <Image className="iatfimage" src={iso9001} alt="JIEI(THAILAND).CO.,LTD" priority />
+            </div>
+            <div className="image-iatf">
+              <Image className="iatfimage" src={iso14001} alt="JIEI(THAILAND).CO.,LTD" priority />
+            </div>
+          </div>
+        </div>
+
+
+      </div>
     </div>
-  );
+
+  )
 }
