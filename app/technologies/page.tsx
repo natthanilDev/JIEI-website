@@ -42,7 +42,7 @@ export default function page() {
 
                                     <div className="ul-card-box2">
                                         <li>Stress Analysis</li>
-                                        <p>By analyzing the stresses and behaviours of products with the aid of computers, a product's performance can be accurately estimated before actually making the product.</p>
+                                        <p>By analyzing the stresses and behaviours of products with the aid of computers, a product&apos;s performance can be accurately estimated before actually making the product.</p>
                                     </div>
 
                                     <div className="ul-card-box1">

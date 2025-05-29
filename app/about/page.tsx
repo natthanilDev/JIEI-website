@@ -16,10 +16,10 @@ export default function page() {
                     <div className="content-president">
                         <p className="thank-p">Thank you very much for taking the time to visit our website.</p>
                         <p className="discription-president">
-                            JIEI (Thailand) Co., Ltd. was founded in November 2011 as a member company of the Kasei Kogyo Co., Ltd. group. Active in business since 1966, the Kasei Kogyo group, with a core focus on rubber extrusion for automobile use, has arrived at the present together with the development of the world's automotive industry.
+                            JIEI (Thailand) Co., Ltd. was founded in November 2011 as a member company of the Kasei Kogyo Co., Ltd. group. Active in business since 1966, the Kasei Kogyo group, with a core focus on rubber extrusion for automobile use, has arrived at the present together with the development of the world&apos;s automotive industry.
                             Through a variety of processes, from planning and development in industrial methods to production, we place a priority on responding to global demands and are involved in precision and quality product manufacturing using advanced technology that can respond to the needs of many types of customers, all from our bases in not only Japan but also North America, China, and Asia.
                             The Kasei Kogyo group has been structured to respond with speed and precision to the rapidly-evolving demands of the industry, putting to practice the creative, constructive know-how gained through experience in the automotive industry.
-                            In the future as well, we will spare no effort as an enterprise in striving to make even greater contributions to the global society.We'd like to thank everyone for your support and encouragement and hope we will continue to enjoy your patronage in the future.
+                            In the future as well, we will spare no effort as an enterprise in striving to make even greater contributions to the global society.We&apos; d like to thank everyone for your support and encouragement and hope we will continue to enjoy your patronage in the future.
                         </p>
                     </div>
                 </div>
