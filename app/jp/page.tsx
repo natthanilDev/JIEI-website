@@ -1,12 +1,12 @@
 import Image from "next/image"
-import Jiei from '../public/jiei.jpg'
+import Jiei from '../../public/jiei.jpg'
 import Link from "next/link"
-import './globals.css'
+import '../globals.css'
 import App from "@/app/en/component/swiper/swiper"
-import IATF1 from '../public/IATF1.png'
-import IATF2 from '../public/IATF2.png'
-import iso9001 from '../public/9001.png'
-import iso14001 from '../public/14001.png'
+import IATF1 from '../../public/IATF1.png'
+import IATF2 from '../../public/IATF2.png'
+import iso9001 from '../../public/9001.png'
+import iso14001 from '../../public/14001.png'
 
 import { CarFilled, TeamOutlined, AndroidOutlined, AreaChartOutlined } from "@ant-design/icons"
 export default function Index() {
@@ -17,32 +17,35 @@ export default function Index() {
           <div className="introHomePage">
             <div className="introContent">
               <div className="topicHomePage">
-                <h1>JIEI(THAILAND).CO.,LTD</h1>
+                <h1> ジェイイーアイ（タイ）株式会社</h1>
               </div>
               <div className="contentHomePage">
                 <p>
-                  We are a specialist in the manufacturing of rubber components for the automotive industry, such as car door seals. Our operations emphasize quality, safety, and environmental responsibility. The company is certified with international standards including ISO 9001, ISO 14001, and IATF 16949, reflecting our commitment to continuous improvement in our production processes to ensure maximum customer satisfaction.
+                   私たちは、自動車業界向けのゴム部品、例えば自動車のドアシールなどの製造を専門とする企業です。
+                  当社は品質、安全性、そして環境への配慮を重視して事業を行っております。
+                  また、ISO 9001、ISO 14001、IATF 16949 などの国際認証を取得しており、
+                  生産プロセスの継続的な改善に取り組むことで、お客様の満足度を最大限に高めることを目指しています。
                 </p>
               </div>
-              <Link href={'/en/product'}>
+              <Link href={'/jp/product'}>
                 <div className="btn-intro-home-page">
-                  <button>Information</button>
+                  <button>情報</button>
                 </div>
               </Link>
 
               <div className="detel">
                 <div className="boxDetel">
                   <p className="topicISO">ISO 9001</p>
-                  <p className="dispriptionISO">มาตรฐานด้านคุณภาพ</p>
+                  <p className="dispriptionISO">品質基準</p>
                 </div>
                 <div className="boxDetel">
                   <p className="topicISO" >ISO 14001</p>
-                  <p className="dispriptionISO">มาตรฐานด้านสิ่งแวดล้อม</p>
+                  <p className="dispriptionISO">環境認証</p>
                 </div>
                 <div className="boxDetel">
 
                   <p className="topicISO">IATF 16949</p>
-                  <p className="dispriptionISO">มาตรฐานด้านรถยนต์</p>
+                  <p className="dispriptionISO">	自動車産業規格</p>
                 </div>
 
               </div>
@@ -62,7 +65,7 @@ export default function Index() {
               <CarFilled className="icon-intro" />
             </div>
             <div className="content-card">
-              <p>Our company, JIEI (Thailand) is focused on the ASEAN region and offers a variety of rubber products for construction materials, automobiles, and other industrial uses. </p>
+              <p>私たち JIEI (THAILAND) はASEAN地域を中心に、自動車や建材などさまざまなゴム製品を取り扱っています。</p>
             </div>
           </div>
 
@@ -72,7 +75,7 @@ export default function Index() {
               <AndroidOutlined className="icon-intro" />
             </div>
             <div className="content-card">
-              <p>Our high-precision technology utilizes proprietary techniques and boasts real results in supporting the creation of beautiful and comfortable vehicles.</p>
+              <p>独自の手法を駆使した高精度技術で、美しく快適なクルマ作りを支えてきた実績があります。</p>
             </div>
           </div>
 
@@ -82,7 +85,7 @@ export default function Index() {
               <TeamOutlined className="icon-intro" />
             </div>
             <div className="content-card">
-              <p>Committed to responding to the demands of our customers, we are always incorporating the latest state-of-the-art technology. </p>
+              <p>常に最新鋭の技術を取り入れお客様のニーズに対応することを心がけています。</p>
             </div>
           </div>
 
@@ -93,7 +96,7 @@ export default function Index() {
               <AreaChartOutlined className="icon-intro" />
             </div>
             <div className="content-card">
-              <p>We fully support a schedule that extends from richly-experienced design planning and material development to mass production through industrial methods development. </p>
+              <p>経験豊富な設計、材料開発、工法開発にて量産までのスケジュールを完全にサポートいたします。</p>
             </div>
           </div>
         </div>

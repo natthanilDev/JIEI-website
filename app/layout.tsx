@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
-import Footer from "@/component/footer/footer";
-import "./globals.css";
-import Navbar from "@/component/navbar/navbar";
 
+import type { Metadata } from "next";
+import "./globals.css";
+import NavENJP from "./jp/component/navbar/navENJP";
+import FooterENJP from "./jp/component/footer/footerENJP";
 
 export const metadata: Metadata = {
   title: "JIEI(THAILAND).CO.,LTD",
@@ -17,9 +17,9 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <html lang="en">
       <body>
-        <Navbar />
+        <NavENJP />
         {children}
-        <Footer />
+        <FooterENJP />
       </body>
     </html>
   );
