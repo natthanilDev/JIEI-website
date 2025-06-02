@@ -2,7 +2,7 @@
 import { usePathname } from "next/navigation"
 import Navbar from "./navbarEN"
 import Navbarjp from "./navabarJP"
-export default function navENJP() {
+export default function NavENJP() {
     const pathname = usePathname()
   return (
     <div className="nav-container">

@@ -2,6 +2,7 @@
 
 import React, { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper as SwiperClass } from 'swiper'; // Import SwiperClass for typing
 import Image from 'next/image';
 
 // Import Swiper styles
@@ -21,7 +22,9 @@ export default function App() {
   const progressCircle = useRef<SVGSVGElement>(null);
   const progressContent = useRef<HTMLSpanElement>(null);
 
-  const onAutoplayTimeLeft = (s: any, time: number, progress: number) => {
+  // แก้ไขพารามิเตอร์ให้ตรงกับที่ Swiper ต้องการ
+  const onAutoplayTimeLeft = (s: SwiperClass, time: number, progress: number) => {
+    // s is the Swiper instance, time is timeLeft, progress is percentage
     if (progressCircle.current && progressContent.current) {
       progressCircle.current.style.setProperty('--progress', `${1 - progress}`);
       progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
@@ -42,7 +45,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        onAutoplayTimeLeft={onAutoplayTimeLeft}
+        onAutoplayTimeLeft={onAutoplayTimeLeft} // Line 45
         className="mySwiper"
       >
         <SwiperSlide>
@@ -55,7 +58,6 @@ export default function App() {
           <Image src={banner3} priority alt="jiei(thailand).co.,ltd" />
         </SwiperSlide>
 
-        {/* Removed `slot="container-end"` */}
         <div className="autoplay-progress">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
             <circle cx="24" cy="24" r="20" />

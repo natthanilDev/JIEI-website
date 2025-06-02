@@ -4,7 +4,7 @@ import Link from 'next/link'
 import './navbar.css'
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
 import { usePathname } from 'next/navigation';
-export default function navlink() {
+export default function Navlink() {
     const [menu, setMenu] = useState(false)
     const pathname = usePathname()
 

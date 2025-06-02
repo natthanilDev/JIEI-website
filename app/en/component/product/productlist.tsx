@@ -84,7 +84,7 @@ export default function productlist() {
                                 <p>Hoodseal Front</p>
                             </div>
                             <div className="list-list-list-list">
-                                <p>By improving the cross-section of the seal without altering the structure of the engine room's front end, it prevents interference with the protruding portion on the upper surface of the engine room's front end. It also conforms to regulations concerning external protrusions.</p>
+                                <p>By improving the cross-section of the seal without altering the structure of the engine room&apos;s front end, it prevents interference with the protruding portion on the upper surface of the engine room&apos;s front end. It also conforms to regulations concerning external protrusions.</p>
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@ export default function productlist() {
                                 <p>Bamper Protector</p>
                             </div>
                             <div className="list-list-list-list">
-                                <p>As external design characteristics must be kept in mind, we use silicon that corresponds to the vehicle's color.</p>
+                                <p>As external design characteristics must be kept in mind, we use silicon that corresponds to the vehicle&apos;s color.</p>
                             </div>
                         </div>
                     </div>

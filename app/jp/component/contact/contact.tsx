@@ -3,7 +3,7 @@ import './contact.css'
 import Image from 'next/image'
 import { backend } from './backend'
 import Logo from '../../../../public/logoNavbar.png'
-import { useState } from 'react'
+
 
 export default function Contact() {
 
@@ -18,7 +18,7 @@ export default function Contact() {
             alert(data.message)
 
         } catch (error) {
-
+            console.log(error)
         }
 
     }
