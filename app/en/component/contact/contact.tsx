@@ -6,23 +6,14 @@ import Logo from '../../../../public/logoNavbar.png'
 import { useState } from 'react'
 
 export default function Contact() {
-
-    const headleSubmit = async (e: { preventDefault: () => void; currentTarget: HTMLFormElement | undefined }) => {
+    const headleSubmit = async(e: { preventDefault: () => void; currentTarget: HTMLFormElement | undefined }) =>{
         e.preventDefault()
-        const formData = new FormData(e.currentTarget)
+        const dataForm =  new FormData(e.currentTarget)
+        const data = await backend(dataForm)
 
-        try {
-
-            const data = await backend(formData)
-            console.log(data)
-            alert(data)
-
-        } catch (error) {
-
-        }
-
+        
+        return data;
     }
-
     return (
         <div className="bc">
             <div className="Contact-form">
@@ -91,10 +82,10 @@ export default function Contact() {
 
                 </form>
             </div>
-info@jieithai.com
+            info@jieithai.com
             <div className="google-map-1">
                 <div className="box-image">
-                    <Image src={Logo} alt='JIEI(THAILAND).CO.,LTD' /> 
+                    <Image src={Logo} alt='JIEI(THAILAND).CO.,LTD' />
                 </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.1518657434735!2d101.03399597454839!3d13.089560112282221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102c7dc30976c73%3A0x4d5814b37d43e107!2sJIEI(Thailand)%20Co.%2CLtd.!5e0!3m2!1sth!2sth!4v1748509058790!5m2!1sth!2sth" loading="lazy"></iframe>
             </div>
