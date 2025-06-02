@@ -41,6 +41,13 @@
     color: #3a3a3a;
 
 }
+.input-box label::after {
+    content: '*';
+    color: red;
+   font-size: 18px;
+   margin: 0 0 0 4px;
+
+}
 
 .input-contact {
     width: 100%;

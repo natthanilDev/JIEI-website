@@ -16,6 +16,7 @@ export default function Contact() {
     }
     return (
         <div className="bc">
+            
             <div className="Contact-form">
                 <h1>Contact Form</h1>
             </div>
@@ -52,27 +53,27 @@ export default function Contact() {
                         <div className="all-contact">
                             <div className="input-box">
                                 <label htmlFor="youname">Your name </label>
-                                <input className="input-contact" type="text" name="name" id="youname" placeholder="ชื่อ" />
+                                <input className="input-contact" type="text" name="name" id="youname" placeholder="ชื่อ-สกุล" required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="email">Email </label>
-                                <input className="input-contact" type="text" name="email" id="email" placeholder="อีเมลล์" />
+                                <input className="input-contact" type="text" name="email" id="email" placeholder="อีเมลล์ของคุณ" required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="address">Address </label>
-                                <input className="input-contact" type="text" name="address" id="address" placeholder="ที่อยู่" />
+                                <input className="input-contact" type="text" name="address" id="address" placeholder="ที่อยู่" required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="phone">Phone</label>
-                                <input className="input-contact" type="text" name="phone" id="phone" placeholder="เบอร์โทร" />
+                                <input className="input-contact" type="tel" name="phone" id="phone" placeholder="เบอร์โทร" required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="subject">Subject </label>
-                                <input className="input-contact" type="text" name="subject" id="subject" placeholder="เรื่อง" />
+                                <input className="input-contact" type="text" name="subject" id="subject" placeholder="เรื่อง" required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="message">Message </label>
-                                <textarea name="message" className='textarea' id="message" placeholder="ข้อความ"></textarea>
+                                <textarea name="message" className='textarea' id="message" placeholder="ข้อความ" required></textarea>
                             </div>
                         </div>
                     </div>
@@ -82,7 +83,7 @@ export default function Contact() {
 
                 </form>
             </div>
-            info@jieithai.com
+            
             <div className="google-map-1">
                 <div className="box-image">
                     <Image src={Logo} alt='JIEI(THAILAND).CO.,LTD' />
