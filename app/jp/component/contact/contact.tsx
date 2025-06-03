@@ -12,10 +12,7 @@ export default function Contact() {
         const formData = new FormData(e.currentTarget)
 
         try {
-
             const data = await backend(formData)
-            console.log(data)
-            alert(data.message)
 
         } catch (error) {
             console.log(error)
@@ -26,7 +23,7 @@ export default function Contact() {
     return (
         <div className="bc">
             <div className="Contact-form">
-                <h1>お問い合わせフォーム หรือ コンタクトフォーム</h1>
+                <h1>お問い合わせフォーム</h1>
             </div>
             <div className="form-box">
                 <form onSubmit={headleSubmit}>
@@ -61,27 +58,27 @@ export default function Contact() {
                         <div className="all-contact">
                             <div className="input-box">
                                 <label htmlFor="youname">あなたの名前 </label>
-                                <input className="input-contact" type="text" name="name" id="youname" placeholder="ชื่อ" />
+                                <input className="input-contact" type="text" name="name" id="youname" placeholder="ชื่อ"  required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="email">	メールアドレス </label>
-                                <input className="input-contact" type="text" name="email" id="email" placeholder="อีเมลล์" />
+                                <input className="input-contact" type="email" name="email" id="email" placeholder="อีเมลล์"  required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="address">住所（じゅうしょ） </label>
-                                <input className="input-contact" type="text" name="address" id="address" placeholder="ที่อยู่" />
+                                <input className="input-contact" type="text" name="address" id="address" placeholder="ที่อยู่"  required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="phone">	電話番号（でんわばんごう）</label>
-                                <input className="input-contact" type="text" name="phone" id="phone" placeholder="เบอร์โทร" />
+                                <input className="input-contact" type="tel" name="phone" id="phone" placeholder="เบอร์โทร"  required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="subject">	件名（けんめい） </label>
-                                <input className="input-contact" type="text" name="subject" id="subject" placeholder="เรื่อง" />
+                                <input className="input-contact" type="text" name="subject" id="subject" placeholder="เรื่อง"  required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="message">	メッセージ </label>
-                                <textarea name="message" className='textarea' id="message" placeholder="ข้อความ"></textarea>
+                                <textarea name="message" className='textarea' id="message" placeholder="ข้อความ" required></textarea>
                             </div>
                         </div>
                     </div>
@@ -91,7 +88,6 @@ export default function Contact() {
 
                 </form>
             </div>
-            info@jieithai.com
             <div className="google-map-1">
                 <div className="box-image">
                     <Image src={Logo} alt='JIEI(THAILAND).CO.,LTD' />

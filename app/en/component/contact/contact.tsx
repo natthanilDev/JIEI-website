@@ -57,7 +57,7 @@ export default function Contact() {
                             </div>
                             <div className="input-box">
                                 <label htmlFor="email">Email </label>
-                                <input className="input-contact" type="text" name="email" id="email" placeholder="อีเมลล์ของคุณ" required/>
+                                <input className="input-contact" type="email" name="email" id="email" placeholder="อีเมลล์ของคุณ" required/>
                             </div>
                             <div className="input-box">
                                 <label htmlFor="address">Address </label>

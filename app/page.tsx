@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image"
 import Jiei from '../public/jiei.jpg'
 import Link from "next/link"
@@ -11,6 +12,7 @@ import iso14001 from '../public/14001.png'
 import { CarFilled, TeamOutlined, AndroidOutlined, AreaChartOutlined } from "@ant-design/icons"
 export default function Index() {
 
+  
   return (
     <div>
       <div className="box">
@@ -19,6 +21,7 @@ export default function Index() {
             <div className="introContent">
               <div className="topicHomePage">
                 <h1>JIEI(THAILAND).CO.,LTD</h1>
+             
               </div>
               <div className="contentHomePage">
                 <p>
