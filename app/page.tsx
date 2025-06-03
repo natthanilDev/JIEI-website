@@ -10,6 +10,7 @@ import iso14001 from '../public/14001.png'
 
 import { CarFilled, TeamOutlined, AndroidOutlined, AreaChartOutlined } from "@ant-design/icons"
 export default function Index() {
+
   return (
     <div>
       <div className="box">
