@@ -35,7 +35,6 @@ export default function Contact() {
                                         <p>jiei-sales@jieithai.com</p>
                                         <p className='section-contact'>営業部（えいぎょうぶ）</p>
                                     </div>
-
                                     <div className="text-contact">
                                         <p>jiei-pur@jieithai.com</p>
                                         <p className='section-contact'>日本語: 購買部（こうばいぶ）</p>

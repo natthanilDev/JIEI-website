@@ -1,7 +1,7 @@
 import nodemailer from 'nodemailer';
 export async function POST(req) {
   const body = await req.json();
-  const { name, email, message, address, phone } = body;
+  const { name, email, message, address, phone ,subject} = body;
 
 
 
@@ -26,6 +26,9 @@ export async function POST(req) {
      <br />
     <h2>Contact Form Submission</h2>
      <br />
+     
+     <h3><strong>Subject : </strong> ${subject}</h3>
+     
     <p><strong>Customer Name : </strong> ${name}</p>
    
     <p><strong>Email : </strong> ${email}</p>
