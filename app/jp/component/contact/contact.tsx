@@ -12,7 +12,7 @@ export default function Contact() {
         const formData = new FormData(e.currentTarget)
 
         try {
-            const data = await backend(formData)
+            await backend(formData)
 
         } catch (error) {
             console.log(error)
