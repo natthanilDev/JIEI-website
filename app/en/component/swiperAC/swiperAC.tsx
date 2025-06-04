@@ -66,7 +66,7 @@ export default function App() {
 
             </div>
             <div className="card-ac">
-                <div className="card-box">
+                <div className="card-box-ac">
                     <div className="card-image">
                         <Image className='image-card-ac' src={Img} alt={alt} />
                     </div>
@@ -75,7 +75,7 @@ export default function App() {
                     </div>
                 </div>
 
-                <div className="card-box">
+                <div className="card-box-ac">
                     <div className="card-image">
                         <Image className='image-card-ac' src={Img} alt={alt} />
                     </div>
@@ -84,7 +84,7 @@ export default function App() {
                     </div>
                 </div>
 
-                <div className="card-box">
+                <div className="card-box-ac">
                     <div className="card-image">
                         <Image className='image-card-ac' src={Img} alt={alt} />
                     </div>
@@ -102,7 +102,7 @@ export default function App() {
 
                 </div>
 
-                <div className="card-box">
+                <div className="card-box-ac">
                     <div className="card-image">
                         <Image className='image-card-ac' src={Img} alt={alt} />
                     </div>
