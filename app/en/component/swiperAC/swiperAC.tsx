@@ -1,8 +1,6 @@
 'use client'
-import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Link from 'next/link';
 import Img from '../../../../public/banner1.png'
 import Image from 'next/image';
 // Import Swiper styles
@@ -98,7 +96,7 @@ export default function App() {
                             <p className='text-discription-ac2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolores tempore, provident unde error nam! Harum quisquam consequatur provident, laborum sapiente magnam exercitationem, voluptates non veritatis quod assumenda est commodi.</p>
                         </div>
                         <div className="noneBox">
-                            
+
                         </div>
                     </div>
 
