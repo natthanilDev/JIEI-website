@@ -10,7 +10,7 @@ export default function footerJP() {
                 <div className="about-us-footer">
                     <h1>企業情報</h1>
                     <ul className='about-list'>
-                        <li><Link href={'/about'}>会社案内</Link></li>
+                        <li><Link href={'/jp/about'}>会社案内</Link></li>
                         
                         <div className="icon-contact">
                             <ul className='icon-flex'>
@@ -35,25 +35,15 @@ export default function footerJP() {
                 <div className="menu-footer">
                     <h1>メニュー</h1>
                     <ul className='menu-list-footer'>
-                        <li><Link href={'/'}>ホーム</Link></li>
-                        <li><Link href={'/about'}>会社案内</Link></li>
-                        <li><Link href={'/technologies'}>開発技術紹介</Link></li>
-                        <li><Link href={'/product'}>製品紹介</Link></li>
-                        <li><Link href={'/network'}>ネットワーク</Link></li>
-                        <li><Link href={'/contact'}>お問い合わせ</Link></li>
+                        <li><Link href={'/jp'}>ホーム</Link></li>
+                        <li><Link href={'/jp/about'}>会社案内</Link></li>
+                        <li><Link href={'/jp/technologies'}>開発技術紹介</Link></li>
+                        <li><Link href={'/jp/product'}>製品紹介</Link></li>
+                        <li><Link href={'/jp/network'}>ネットワーク</Link></li>
+                        <li><Link href={'/jp/contact'}>お問い合わせ</Link></li>
                     </ul>
                 </div>
-                <div className="us-contact">
-                    <ul className='utility-footer'>
-                        <li><Link href={'/'}>ホーム</Link></li>
-                        <li><Link href={'/about'}>会社案内</Link></li>
-                        <li><Link href={'/technologies'}>開発技術紹介</Link></li>
-                        <li><Link href={'/product'}>製品紹介</Link></li>
-                        <li><Link href={'/network'}>ネットワーク</Link></li>
-                        <li><Link href={'/contact'}>お問い合わせ</Link></li>
-                    </ul>
-
-                </div>
+              
 
                 <div className="google-map">
                    <Image src={Logo} className='logo-footer' priority alt='JIEI(THAILAND).CO.,LTD' />

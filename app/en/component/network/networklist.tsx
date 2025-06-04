@@ -409,7 +409,7 @@ export default function networklist() {
             <div className="tabel-product-list-box">
                 <div className="box-car-product">
                     <div className="car-topic">
-                        <h1>Parther</h1>
+                        <h1>Partner</h1>
                     </div>
                 </div>
                 <div className="discript-box">

@@ -75,13 +75,13 @@ export default function page() {
                                 <p className="topic-company-profile-list">President :</p>
                             </div>
                             <div className="card-company-profile-content">
-                                <p className="discription-company-profile-content">Masami Kimura</p>
+                                <p className="discription-company-profile-content">Masashi Ezaka</p>
                             </div>
                             <div className="card-company-profile-content">
                                 <p className="topic-company-profile-list">Director :</p>
                             </div>
                             <div className="card-company-profile-content">
-                                <p className="discription-company-profile-content">Masashi Ezaka</p>
+                                <p className="discription-company-profile-content">Kenji Kamei</p>
                             </div>
                             <div className="card-company-profile-content">
                                 <p className="topic-company-profile-list">Management Director :</p>

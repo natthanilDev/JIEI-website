@@ -34,6 +34,9 @@ export default function Navlink() {
                     <li onClick={showMenu}>
                         <div className="li-link"><Link className={pathname === '/en/network' ? "active" : ""} href={'/en/network'}>NETWORK</Link></div>
                     </li>
+                     <li onClick={showMenu}>
+                        <div className="li-link"><Link className={pathname === '/en/activities' ? "active" : ""} href={'/en/activities'}>ACTIVITIES</Link></div>
+                    </li>
                     <li onClick={showMenu}>
                         <div className="li-link"><Link className={pathname === '/en/contact' ? "active" : ""} href={'/en/contact'}>CONTACT</Link></div>
                     </li>

@@ -82,12 +82,19 @@ export default function page() {
                                         <li>Money Viscosity Measurements</li>
                                         <p>And check to ensure that it satisfies a variety of physical property requirements. </p>
                                     </div>
+                                    <div className="ul-card-box1">
+                                        <li>Hardness & Specific Gravity Measurements</li>
+                                        <p></p>
+                                    </div>
+
+                                    <div className="ul-card-box2">
+                                        <li>Tensile Strength Measurements</li>
+                                        <p></p>
+                                    </div>
 
                                 </ul>
                             </div>
-
                         </div>
-
                         <div className="card-tech">
                             <div className="topic-card-tech">
                                 <h1>Functional Evaluation</h1>
@@ -122,26 +129,7 @@ export default function page() {
                             </div>
                         </div>
 
-                        <div className="card-tech">
-                            <div className="topic-card-tech">
-                                <h1>Measurement & Testing</h1>
-                            </div>
-                            <div className="discription-tech">
-                                <ul className="ul-tech">
-                                    <div className="ul-card-box1">
-                                        <li>Hardness & Specific Gravity Measurements</li>
-                                        <p></p>
-                                    </div>
-
-                                    <div className="ul-card-box2">
-                                        <li>Tensile Strength Measurements</li>
-                                        <p></p>
-                                    </div>
-
-                                </ul>
-                            </div>
-
-                        </div>
+                       
                     </div>
                 </div>
             </div>

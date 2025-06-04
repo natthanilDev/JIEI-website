@@ -1,22 +1,23 @@
 'use client'
 import './contact.css'
-import Image from 'next/image'
+import Link from 'next/link'
+// import Image from 'next/image'
 import { backend } from './backend'
-import Logo from '../../../../public/logoNavbar.png'
-
+// import Logo from '../../../../public/logoNavbar.png'
+import ButtonVM from './buttonVM'
 
 export default function Contact() {
-    const headleSubmit = async(e: { preventDefault: () => void; currentTarget: HTMLFormElement | undefined }) =>{
+    const headleSubmit = async (e: { preventDefault: () => void; currentTarget: HTMLFormElement | undefined }) => {
         e.preventDefault()
-        const dataForm =  new FormData(e.currentTarget)
+        const dataForm = new FormData(e.currentTarget)
         const data = await backend(dataForm)
 
-        
+
         return data;
     }
     return (
         <div className="bc">
-            
+
             <div className="Contact-form">
                 <h1>Contact Form</h1>
             </div>
@@ -26,50 +27,61 @@ export default function Contact() {
                         <div className="box-image">
                             <div className="contact-staff">
                                 <div className="card-staff">
-                                    <div className="text-contact">
-                                        <p>jiei-sales@jieithai.com</p>
-                                        <p className='section-contact'>Sales Department</p>
-                                    </div>
 
-                                    <div className="text-contact">
-                                        <p>jiei-pur@jieithai.com</p>
-                                        <p className='section-contact'>Purchasing Department</p>
-                                    </div>
+                                    <Link target='_blank' href={'mailto://compose?to=jiei-sales@jieithai.com&subject=หัวเรื่อง&body=ข้อความ'}>
+                                        <div className="text-contact">
+                                            <p>jiei-sales@jieithai.com</p>
+                                            <p className='section-contact'>Sales Department</p>
+                                        </div>
+                                    </Link>
+                                    <Link target='_blank' href={'mailto://compose?to=jiei-pur@jieithai.com&subject=หัวเรื่อง&body=ข้อความ'}>
 
-                                    <div className="text-contact">
-                                        <p>jiei-hr@jieithai.com</p>
-                                        <p className='section-contact'>Human and Rource Department</p>
+                                        <div className="text-contact">
+                                            <p>jiei-pur@jieithai.com</p>
+                                            <p className='section-contact'>Purchasing Department</p>
+                                        </div>
+                                    </Link>
+                                    <Link target='_blank' href={'mailto://compose?to=jiei-hr@jieithai.com&subject=หัวเรื่อง&body=ข้อความ'}>
 
-                                    </div>
+                                        <div className="text-contact">
+                                            <p>jiei-hr@jieithai.com</p>
+                                            <p className='section-contact'>Human and Rource Department</p>
+
+                                        </div>
+                                    </Link>
+
+                                    <Link target='_blank'  href={'mailto://compose?to=jiei-safety@jieithai.com&subject=หัวเรื่อง&body=ข้อความ'}>
+                                        <div className="text-contact">
+                                            <p>jiei-safety@jieithai.com</p>
+                                            <p className='section-contact'>Safety and Environment Department</p>
+                                        </div>
+                                    </Link>
 
 
-                                    <div className="text-contact">
-                                        <p>jiei-safety@jieithai.com</p>
-                                        <p className='section-contact'>Safety and Environment Department</p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <div className="all-contact">
                             <div className="input-box">
                                 <label htmlFor="youname">Your name </label>
-                                <input className="input-contact" type="text" name="name" id="youname" placeholder="ชื่อ-สกุล" required/>
+                                <input className="input-contact" type="text" name="name" id="youname" placeholder="ชื่อ-สกุล" required />
                             </div>
                             <div className="input-box">
                                 <label htmlFor="email">Email </label>
-                                <input className="input-contact" type="email" name="email" id="email" placeholder="อีเมลล์ของคุณ" required/>
+                                <input className="input-contact" type="email" name="email" id="email" placeholder="อีเมลล์ของคุณ" required />
                             </div>
                             <div className="input-box">
                                 <label htmlFor="address">Address </label>
-                                <input className="input-contact" type="text" name="address" id="address" placeholder="ที่อยู่" required/>
+                                <input className="input-contact" type="text" name="address" id="address" placeholder="ที่อยู่" required />
                             </div>
                             <div className="input-box">
                                 <label htmlFor="phone">Phone</label>
-                                <input className="input-contact" type="tel" name="phone" id="phone" placeholder="เบอร์โทร" required/>
+                                <input className="input-contact" type="tel" name="phone" id="phone" placeholder="เบอร์โทร" required />
                             </div>
                             <div className="input-box">
                                 <label htmlFor="subject">Subject </label>
-                                <input className="input-contact" type="text" name="subject" id="subject" placeholder="เรื่อง" required/>
+                                <input className="input-contact" type="text" name="subject" id="subject" placeholder="เรื่อง" required />
                             </div>
                             <div className="input-box">
                                 <label htmlFor="message">Message </label>
@@ -83,14 +95,28 @@ export default function Contact() {
 
                 </form>
             </div>
-            
-            <div className="google-map-1">
-                <div className="box-image">
-                    <Image src={Logo} alt='JIEI(THAILAND).CO.,LTD' />
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.1518657434735!2d101.03399597454839!3d13.089560112282221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102c7dc30976c73%3A0x4d5814b37d43e107!2sJIEI(Thailand)%20Co.%2CLtd.!5e0!3m2!1sth!2sth!4v1748509058790!5m2!1sth!2sth" loading="lazy"></iframe>
-            </div>
 
+
+            <div className="google-map-1">
+                <Link href={'tel:033136581-4'} className='atellandaddress'>
+                    <div className="box-image">
+                        <div className="contact-buttom">
+                            <li className='topic-address-contact'>Phone</li>
+                            <li> 033136581-4</li>
+
+                        </div>
+                    </div>
+                </Link>
+
+                <Link target='_blank' className='atellandaddress' href={'https://maps.app.goo.gl/cE3RtxecAna7pTtx9'} >
+                    <div className="contact-buttom">
+                        <li   className='topic-address-contact'>Address</li>
+                        <li> Pinthong 4 Industrial Estate, Unit G18, 180/3 Moo 6, T.Bueng, A.Sriracha, Chonburi 20230 Thailand </li>
+                    </div>
+                </Link>
+             
+            </div>
+        <ButtonVM />
         </div>
     )
 }
