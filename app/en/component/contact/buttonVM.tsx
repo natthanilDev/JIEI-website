@@ -2,7 +2,7 @@
 import { EnvironmentFilled, CloseOutlined } from '@ant-design/icons'
 import { useState } from 'react'
 import Image from 'next/image'
-import ImageMap from '../../../../public/imageMap.png'
+import ImageMap from '../../../../public/map.jpg'
 
 export default function ButtonVM() {
     const [show, setShow] = useState(false)
