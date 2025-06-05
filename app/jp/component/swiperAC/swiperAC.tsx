@@ -10,8 +10,12 @@ import { Pagination } from 'swiper/modules';
 
 export default function SwiperAc() {
     const alt = "๋JIEI(THAILAND).CO.,LTD"
-    const swiperImage = (
-        <div className="swiper-box-AC">
+
+
+    return (
+        <div>
+            
+           <div className="swiper-box-AC">
             <div className="text-box-activities">
                 <h1>Activities</h1>
             </div>
@@ -59,80 +63,56 @@ export default function SwiperAc() {
 
         </div>
 
-    )
-    const card_AC = [
-        (
-
-
-            <div className="card-box-ac">
-                <div className="card-image">
-                    <Image className='image-card-ac' src={Img} alt={alt} />
-                </div>
-                <div className="box-text-container">
-                    <div className="text-box-Ac1">
-                        <p className='text-discription-ac1'>Activities</p>
-                    </div>
-                    <div className="text-box-Ac2">
-                        <p className='text-discription-ac2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolores tempore, provident unde error nam! Harum quisquam consequatur provident, laborum sapiente magnam exercitationem, voluptates non veritatis quod assumenda est commodi.</p>
-                    </div>
-                    <div className="noneBox">
-
-                    </div>
-                </div>
-            </div>
-
-
-        ),
-        (
-            <div className="card-box-ac">
-                <div className="card-image">
-                    <Image className='image-card-ac' src={Img} alt={alt} />
-                </div>
-                <div className="box-text-container">
-                    <div className="text-box-Ac1">
-                        <p className='text-discription-ac1'>Activities</p>
-                    </div>
-                    <div className="text-box-Ac2">
-                        <p className='text-discription-ac2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolores tempore, provident unde error nam! Harum quisquam consequatur provident, laborum sapiente magnam exercitationem, voluptates non veritatis quod assumenda est commodi.</p>
-                    </div>
-                    <div className="noneBox">
-
-                    </div>
-                </div>
-            </div>
-        ), (
-            <div className="card-box-ac">
-                <div className="card-image">
-                    <Image className='image-card-ac' src={Img} alt={alt} />
-                </div>
-                <div className="box-text-container">
-                    <div className="text-box-Ac1">
-                        <p className='text-discription-ac1'>Activities</p>
-                    </div>
-                    <div className="text-box-Ac2">
-                        <p className='text-discription-ac2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolores tempore, provident unde error nam! Harum quisquam consequatur provident, laborum sapiente magnam exercitationem, voluptates non veritatis quod assumenda est commodi.</p>
-                    </div>
-                    <div className="noneBox">
-
-                    </div>
-                </div>
-            </div>
-        )
-    ]
-
-    return (
-        <div>
-            
-            {swiperImage}
-
             <div className="container-card-ac">
 
-                {card_AC.map((item, index) => (
+                <div className="card-box-ac">
+                <div className="card-image">
+                    <Image className='image-card-ac' src={Img} alt={alt} />
+                </div>
+                <div className="box-text-container">
+                    <div className="text-box-Ac1">
+                        <p className='text-discription-ac1'>Activities</p>
+                    </div>
+                    <div className="text-box-Ac2">
+                        <p className='text-discription-ac2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolores tempore, provident unde error nam! Harum quisquam consequatur provident, laborum sapiente magnam exercitationem, voluptates non veritatis quod assumenda est commodi.</p>
+                    </div>
+                    <div className="noneBox">
 
-                    <div key={index}>{item}</div>
+                    </div>
+                </div>
+            </div>
+            <div className="card-box-ac">
+                <div className="card-image">
+                    <Image className='image-card-ac' src={Img} alt={alt} />
+                </div>
+                <div className="box-text-container">
+                    <div className="text-box-Ac1">
+                        <p className='text-discription-ac1'>Activities</p>
+                    </div>
+                    <div className="text-box-Ac2">
+                        <p className='text-discription-ac2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolores tempore, provident unde error nam! Harum quisquam consequatur provident, laborum sapiente magnam exercitationem, voluptates non veritatis quod assumenda est commodi.</p>
+                    </div>
+                    <div className="noneBox">
 
+                    </div>
+                </div>
+            </div>
+            <div className="card-box-ac">
+                <div className="card-image">
+                    <Image className='image-card-ac' src={Img} alt={alt} />
+                </div>
+                <div className="box-text-container">
+                    <div className="text-box-Ac1">
+                        <p className='text-discription-ac1'>Activities</p>
+                    </div>
+                    <div className="text-box-Ac2">
+                        <p className='text-discription-ac2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolores tempore, provident unde error nam! Harum quisquam consequatur provident, laborum sapiente magnam exercitationem, voluptates non veritatis quod assumenda est commodi.</p>
+                    </div>
+                    <div className="noneBox">
 
-                ))}
+                    </div>
+                </div>
+            </div>
             </div>
 
 
