@@ -1,4 +1,4 @@
-import './tech.css'
+
 import Image from 'next/image'
 import c1 from '../../../public/c1.jpg'
 import c2 from '../../../public/c2.jpg'
@@ -14,6 +14,7 @@ import f1 from '../../../public/f1.jpg'
 import f2 from '../../../public/f2.png'
 import f3 from '../../../public/f3.jpg'
 import f4 from '../../../public/f4.jpg'
+import '../../en/technologies/tech.css'
 export default function page() {
 
     return (
@@ -86,8 +87,16 @@ export default function page() {
                                         <li>ムーニー粘度測定</li>
                                         <p>各種物性値を満足しているかを確認します。</p>
                                     </div>
+                                    <div className="ul-card-box1">
+                                        <li>硬度・比重測定</li>
+                                        <p></p>
+                                    </div>
 
-                                    
+                                    <div className="ul-card-box2">
+                                        <li>引張強度測定</li>
+                                        <p></p>
+                                    </div>
+
 
                                 </ul>
                             </div>
@@ -132,26 +141,7 @@ export default function page() {
                             </div>
                         </div>
 
-                        <div className="card-tech">
-                            <div className="topic-card-tech">
-                                <h1>計測と試験</h1>
-                            </div>
-                            <div className="discription-tech">
-                                <ul className="ul-tech">
-                                    <div className="ul-card-box1">
-                                        <li>硬度・比重測定</li>
-                                        <p></p>
-                                    </div>
-
-                                    <div className="ul-card-box2">
-                                        <li>引張強度測定</li>
-                                        <p></p>
-                                    </div>
-
-                                </ul>
-                            </div>
-
-                        </div>
+                       
                     </div>
                 </div>
             </div>

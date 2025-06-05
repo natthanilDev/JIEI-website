@@ -1,4 +1,4 @@
-import './network.list.css'
+import './networkcompany.css'
 
 export default function networklist() {
        
@@ -277,7 +277,7 @@ export default function networklist() {
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box1">
                             <div className="list-topic-pro">
                                 <p>America	</p>
                             </div>
@@ -303,7 +303,7 @@ export default function networklist() {
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box1">
                             <div className="list-topic-pro">
                                 <p>Singapore	</p>
                             </div>
@@ -331,7 +331,7 @@ export default function networklist() {
                         </div>
 
 
-                        <div className="discription-box2">
+                        <div className="discription-box1">
                             <div className="list-topic-pro">
                                 <p>China	</p>
                             </div>
@@ -358,7 +358,7 @@ export default function networklist() {
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box1">
                             <div className="list-topic-pro">
                                 <p>Indonesia	</p>
                             </div>
@@ -384,7 +384,7 @@ export default function networklist() {
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box1">
                             <div className="list-topic-pro">
                                 <p>	Thailand</p>
                             </div>

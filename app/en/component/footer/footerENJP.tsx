@@ -7,7 +7,7 @@ export default function FooterENJP() {
       
     return (
         <div>
-            {pathname == '/jp' || pathname == '/jp/about' || pathname == '/jp/technologies' || pathname == '/jp/product' || pathname == '/jp/network' || pathname == '/jp/contact' ? <FooterJP /> : <FooterEN />}
+            {pathname == '/jp' || pathname == '/jp/about' || pathname == '/jp/technologies' || pathname == '/jp/product' || pathname == '/jp/network'||pathname == '/jp/activities' || pathname == '/jp/contact' ? <FooterJP /> : <FooterEN />}
 
            
         </div>

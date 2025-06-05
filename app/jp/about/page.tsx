@@ -3,7 +3,7 @@ import president from '../../../public/jiei(thailand).png'
 import jiei1 from '../../../public/jiei1.jpg'
 import jiei2 from '../../../public/jiei2.jpg'
 
-import './about.css'
+import '../../en/about/about.css'
 export default function page() {
     return (
         <div>
@@ -78,13 +78,13 @@ export default function page() {
                                 <p className="topic-company-profile-list">President :</p>
                             </div>
                             <div className="card-company-profile-content">
-                                <p className="discription-company-profile-content">Masami Kimura</p>
+                                <p className="discription-company-profile-content">Masashi Ezaka</p>
                             </div>
                             <div className="card-company-profile-content">
                                 <p className="topic-company-profile-list">Director :</p>
                             </div>
                             <div className="card-company-profile-content">
-                                <p className="discription-company-profile-content">Masashi Ezaka</p>
+                                <p className="discription-company-profile-content">Kenji Kamei</p>
                             </div>
                             <div className="card-company-profile-content">
                                 <p className="topic-company-profile-list">Management Director :</p>

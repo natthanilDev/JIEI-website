@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image"
-import './product.css'
+import '../../../en/component/product/product.css'
 import ji1 from '../../../../public/ji1.jpg'
 import ji2 from '../../../../public/ji2.jpg'
 import ji3 from '../../../../public/ji3.jpg'

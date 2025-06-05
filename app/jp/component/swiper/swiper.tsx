@@ -10,7 +10,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import './swiper.css';
+import '../../../en/component/swiper/swiper.css'
 
 import banner1 from '../../../../public/banner1.png';
 import banner2 from '../../../../public/banner2.png';

@@ -1,4 +1,5 @@
-import './network.list.css'
+import '../../../en/component/network/networkcompany.css'
+
 
 export default function networklist() {
        
@@ -8,391 +9,391 @@ export default function networklist() {
             <div>
                 <div className="list-product">
                     <div className="box-topic-product">
-                        <p>Region</p>
+                        <p>地域</p>
                     </div>
                     <div className="box-topic-discription">
-                        <p>Company name</p>
+                        <p>会社名</p>
                     </div>
                     <div className="box-topic-discription">
                         <p>URL</p>
                     </div>
                 </div>
 
-                <div className="tabel-product-list-box">
+                <div className="tabel-product-list-box1">
                     <div className="box-car-product">
                         <div className="car-topic">
-                            <h1>Associated Company </h1>
+                            <h1>持分法適用会社 </h1>
                         </div>
                     </div>
                     <div className="discript-box">
-                        <div className="discription-box1">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>Japan</p>
+                                <p>日本</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>KASEI KOGYO CO., LTD.</p>
+                                    <p>化成工業株式会社</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p>http://www.kaseikogyo.com</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>China</p>
+                                <p>中国</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>JIEI TECHNICAL TRADING(SHANGHAI)CO., LTD.</p>
+                                    <p>滋栄技研貿易(上海)有限公司</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p>	</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box1">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>China</p>
+                                <p>中国</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>JIEI TECHNICAL TRADING(SHANGHAI)CO., LTD. GUANGZHOU OFFICE Guangzhou Office</p>
+                                    <p>滋栄技研貿易(上海)有限公司広州営業所</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p>	</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>China</p>
+                                <p>中国</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>JIAXING JIEI AUTOMOBILE PARTS CO., LTD. Wuhan Office</p>
+                                    <p>滋栄技研貿易(上海)有限公司武漢営業所</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box1">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>China</p>
+                                <p>中国</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>Jiaxing Jiei Automobile Parts Co., Ltd.	</p>
+                                    <p>嘉興滋栄汽車配件有限公司	</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>Singapore</p>
+                                <p>シンガポール</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
                                     <p>JIEI (Singapore) Pte. Ltd.	 </p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
 
-                        <div className="discription-box1">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>Japan</p>
+                                <p>	日本</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>TOKAI KOGYO CO., LTD.</p>
+                                    <p>東海興業株式会社</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p>http://www.tokaikogyo.co.jp/</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>Japan</p>
+                                <p>	日本</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>ADO CO., LTD.</p>
+                                    <p>アド株式会社</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p>http://www.e-ado.co.jp/</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box1">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>Japan</p>
+                                <p>	日本</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>ALFA CO., LTD.	 </p>
+                                    <p>株式会社アルファー	 </p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>	Japan</p>
+                                <p>		日本</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>COWERK CO., LTD.</p>
+                                    <p>株式会社コベルク</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box1">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>Japan</p>
+                                <p>	日本</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>SEIWA KOGYO CO., LTD.</p>
+                                    <p>成和工業株式会社</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>Japan</p>
+                                <p>日本</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>TAKARA KASEI KOGYO CO., LTD.</p>
+                                    <p>タカラ化成工業株式会社</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p>	http://www.takarakasei.com/</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box1">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>Japan	</p>
+                                <p>日本	</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>TOA GOMU KOGYO CO., LTD.	</p>
+                                    <p>東亜ゴム工業株式会社	</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
 
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>	Japan</p>
+                                <p>	日本</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>TOKAI KOGYO SEIKI CO., LTD.</p>
+                                    <p>東海興業精機株式会社</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p>http://www.t-seiki.co.jp/</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box1">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>Japan	</p>
+                                <p>日本	</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>TOKAI KOGYO SEIKI CO., LTD.</p>
+                                    <p>冨士株式会社</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>	Japan</p>
+                                <p>	日本</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>	Fuji Co., Ltd.	</p>
+                                    <p>	有限会社物流センター	</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box1">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>	Japan</p>
+                                <p>	アメリカ</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>Toa Gomu Kogyo Co., Ltd.</p>
+                                    <p>GREEN TOKAI CO., LTD.</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p>	</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>Japan	</p>
+                                <p>タイ	</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>BUTSURYU CENTER LTD.</p>
+                                    <p>TOACS THAILAND CO., LTD.</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>America	</p>
+                                <p>シンガポール	</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>GREEN TOKAI CO., LTD.</p>
+                                    <p>TOACS CENTER PTE., LTD.</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p>http://www.greentokai.com/</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>Thailand	</p>
+                                <p>ベトナム	</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>TOACS THAILAND CO., LTD.</p>
+                                    <p>VIETNAM TOKAI CO., LTD.</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>Singapore	</p>
+                                <p>中国	</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>TOACS CENTER PTE., LTD.	 </p>
+                                    <p>寧波東海敏孚汽車部件有限公司	 </p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box4">
                             <div className="list-topic-pro">
-                                <p>Vietnam	</p>
+                                <p>中国	</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
-                                    <p>VIETNAM TOKAI CO., LTD.	 </p>
+                                    <p>広州東海敏孚汽車部件有限公司	 </p>
                                 </div>
-                                <div className="list-list-list-list">
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className="discription-box2">
-                            <div className="list-topic-pro">
-                                <p>China	</p>
-                            </div>
-                            <div className="list-list">
                                 <div className="list-list-list">
-                                    <p>GUANGZHOU TOKAI MINTH AUTOMOTIVE PARTS CO., LTD.</p>
-                                </div>
-                                <div className="list-list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="discription-box2">
+
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>	Mexico</p>
+                                <p>中国	</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
+                                <div className="list-list-list">
+                                    <p>武漢東海敏実汽車零部件有限公司</p>
+                                </div>
+                                <div className="list-list-list">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="discription-box4">
+                            <div className="list-topic-pro">
+                                <p>	メキシコ</p>
+                            </div>
+                            <div className="list-list2">
                                 <div className="list-list-list">
                                     <p>TK MINTH MEXICO, S.A. de C.V.</p>
                                 </div>
-                                <div className="list-list-list-list">
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="discription-box2">
-                            <div className="list-topic-pro">
-                                <p>Indonesia	</p>
-                            </div>
-                            <div className="list-list">
                                 <div className="list-list-list">
-                                    <p>PT.TOYOTA AUTO BODY-TOKAI EXTRUSION (T-TEC)</p>
-                                </div>
-                                <div className="list-list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>India	</p>
+                                <p>インドネシア	</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
+                                <div className="list-list-list">
+                                    <p>PT.TOYOTA AUTO BODY-TOKAI EXTRUSION (T-TEC)	</p>
+                                </div>
+                                <div className="list-list-list">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="discription-box4">
+                            <div className="list-topic-pro">
+                                <p>インド	</p>
+                            </div>
+                            <div className="list-list2">
                                 <div className="list-list-list">
                                     <p>PPAP TOKAI INDIA RUBBER PTE. LTD.</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
                         </div>
-                        <div className="discription-box2">
+                        <div className="discription-box3">
                             <div className="list-topic-pro">
-                                <p>	Thailand</p>
+                                <p>	タイ</p>
                             </div>
-                            <div className="list-list">
+                            <div className="list-list2">
                                 <div className="list-list-list">
                                     <p>TOKAI JIEI ASIA CO., LTD.</p>
                                 </div>
-                                <div className="list-list-list-list">
+                                <div className="list-list-list">
                                     <p></p>
                                 </div>
                             </div>
@@ -406,92 +407,92 @@ export default function networklist() {
 
 
 
-            <div className="tabel-product-list-box">
+            <div className="tabel-product-list-box1">
                 <div className="box-car-product">
                     <div className="car-topic">
-                        <h1>Parther</h1>
+                        <h1>提携先 / 提携会社</h1>
                     </div>
                 </div>
                 <div className="discript-box">
-                    <div className="discription-box1">
+                    <div className="discription-box3">
                         <div className="list-topic-pro">
-                            <p>Korea</p>
+                            <p>韓国</p>
                         </div>
-                        <div className="list-list">
+                        <div className="list-list2">
                             <div className="list-list-list">
-                                <p>YOUNGSHIN CHEMICAL CO., LTD.</p>
+                                <p>株式会社永信加工</p>
                             </div>
-                            <div className="list-list-list-list">
+                            <div className="list-list-list">
                                 <p>	http://www.youngshinchemical.com/</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="discription-box2">
+                    <div className="discription-box4">
                         <div className="list-topic-pro">
-                            <p>China</p>
+                            <p>中国</p>
                         </div>
-                        <div className="list-list">
+                        <div className="list-list2">
                             <div className="list-list-list">
-                                <p>ZHEJIANG XIANTONG RUBBER&PLASTIC CO., LTD.</p>
+                                <p>浙江仙通橡塑株式有限公司</p>
                             </div>
-                            <div className="list-list-list-list">
+                            <div className="list-list-list">
                                 <p>	</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="discription-box1">
+                    <div className="discription-box3">
                         <div className="list-topic-pro">
-                            <p>Philippines</p>
+                            <p>フィリピン</p>
                         </div>
-                        <div className="list-list">
+                        <div className="list-list2">
                             <div className="list-list-list">
                                 <p>TITAN RUBBER</p>
                             </div>
-                            <div className="list-list-list-list">
+                            <div className="list-list-list">
                                 <p>	</p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="discription-box2">
+                    <div className="discription-box4">
                         <div className="list-topic-pro">
-                            <p>Malaysia</p>
+                            <p>マレーシア</p>
                         </div>
-                        <div className="list-list">
+                        <div className="list-list2">
                             <div className="list-list-list">
                                 <p>PONG CODAN RUBBER [M] SDN. BHD.</p>
                             </div>
-                            <div className="list-list-list-list">
+                            <div className="list-list-list">
                                 <p></p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="discription-box1">
+                    <div className="discription-box3">
                         <div className="list-topic-pro">
                             <p>China</p>
                         </div>
-                        <div className="list-list">
+                        <div className="list-list2">
                             <div className="list-list-list">
                                 <p>Jiaxing Jiei Automobile Parts Co., Ltd.	</p>
                             </div>
-                            <div className="list-list-list-list">
+                            <div className="list-list-list">
                                 <p></p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="discription-box2">
+                    <div className="discription-box4">
                         <div className="list-topic-pro">
                             <p>Singapore</p>
                         </div>
-                        <div className="list-list">
+                        <div className="list-list2">
                             <div className="list-list-list">
                                 <p>JIEI (Singapore) Pte. Ltd.	 </p>
                             </div>
-                            <div className="list-list-list-list">
+                            <div className="list-list-list">
                                 <p></p>
                             </div>
                         </div>

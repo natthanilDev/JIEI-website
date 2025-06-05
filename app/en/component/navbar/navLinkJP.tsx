@@ -38,6 +38,10 @@ export default function NavlinkJP() {
                     <li onClick={showMenu}>
                         <div className="li-link"><Link className={pathname === '/jp/network' ? "active" : ""} href={'/jp/network'}>ネットワーク</Link></div>
                     </li>
+
+                      <li onClick={showMenu}>
+                        <div className="li-link"><Link className={pathname === '/jp/activities' ? "active" : ""} href={'/jp/activities'}>活動</Link></div>
+                    </li>
                     <li onClick={showMenu}>
                         <div className="li-link"><Link className={pathname === '/jp/contact' ? "active" : ""} href={'/jp/contact'}>お問い合わせ</Link></div>
                     </li>

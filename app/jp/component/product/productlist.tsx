@@ -1,4 +1,5 @@
-import './product.css'
+import '../../../en/component/product/product.css'
+
 
 export default function productlist() {
     return (

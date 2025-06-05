@@ -1,8 +1,8 @@
 
 import type { Metadata } from "next";
 import "./globals.css";
-import NavENJP from "./jp/component/navbar/navENJP";
-import FooterENJP from "./jp/component/footer/footerENJP";
+import NavENJP from "./en/component/navbar/navENJP";
+import FooterENJP from "./en/component/footer/footerENJP";
 
 export const metadata: Metadata = {
   title: "JIEI(THAILAND).CO.,LTD",

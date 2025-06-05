@@ -4,7 +4,7 @@ import Img from '../../../../public/banner1.png'
 import Image from 'next/image';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import './activities.css';
+import '../../../en/component/swiperAC/activities.css';
 import { Pagination } from 'swiper/modules';
 
 
