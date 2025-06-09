@@ -116,7 +116,6 @@ export default function Contact() {
                 </Link>
              
             </div>
-        <ButtonVM />
         <ButtonViewMap />
         </div>
     )

@@ -14,7 +14,7 @@ import f1 from '../../../public/f1.jpg'
 import f2 from '../../../public/f2.png'
 import f3 from '../../../public/f3.jpg'
 import f4 from '../../../public/f4.jpg'
-import '../../en/technologies/tech.css'
+import '../../en/component/technologies/tech.css'
 export default function page() {
 
     return (

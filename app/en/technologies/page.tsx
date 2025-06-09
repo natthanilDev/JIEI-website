@@ -1,10 +1,10 @@
-import './tech.css'
+import '../component/technologies/tech.css'
 import Image from 'next/image'
 import c1 from '../../../public/c1.jpg'
 import c2 from '../../../public/c2.jpg'
 import c3 from '../../../public/c3.jpg'
 import c4 from '../../../public/c4.jpg'
- 
+
 import d1 from '../../../public/d1.jpg'
 import d2 from '../../../public/d2.jpg'
 import d3 from '../../../public/d3.jpg'
@@ -14,18 +14,17 @@ import f1 from '../../../public/f1.jpg'
 import f2 from '../../../public/f2.png'
 import f3 from '../../../public/f3.jpg'
 import f4 from '../../../public/f4.jpg'
+import TechList from '../component/technologies/techDescription'
+import Design from '../component/technologies/DesignAnalysis'
 export default function page() {
 
     return (
         <div>
-            <div className="box-topic-tech">
-                <div className="box-topic-tech-box">
-                    <h1 className='Introduction'>Introduction of development technology</h1>
-                </div>
 
-            </div>
+           
+            <TechList />
 
-            <div className="box-tech">
+            {/* <div className="box-tech">
                 <div className="tech-discription">
                     <div className="box-card-tech">
                         <div className="card-tech">
@@ -65,8 +64,6 @@ export default function page() {
                                 </ul>
                             </div>
                         </div>
-
-
                         <div className="card-tech">
                             <div className="topic-card-tech">
                                 <h1>Materials Development</h1>
@@ -129,15 +126,18 @@ export default function page() {
                             </div>
                         </div>
 
-                       
+
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div className="topDesign-Analysis">
-                <h1>Design & Analysis</h1>
-            </div>
-            <div className="DesignAnalysis">
+           
+            <Design />
+
+
+
+
+            {/* <div className="DesignAnalysis">
                 <div className="card-box-c">
                     <div className="image-card-c">
                         <Image className="image-c" src={c1} alt='JIEI(THAILAND).CO.,LTD' priority />
@@ -158,15 +158,10 @@ export default function page() {
                         <Image className="image-c" src={c4} alt='JIEI(THAILAND).CO.,LTD' priority />
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div className="box-topic-tech">
-                <div className="box-topic-tech-box">
-                    <h1 className='Introduction'>Materials Development</h1>
-                </div>
-
-            </div>
-            <div className="MaterialsDevelopment">
+            
+            {/* <div className="MaterialsDevelopment">
                 <div className="card-MaterialsDevelopment">
                     <div className="image-dev">
                         <Image className="image-dev" src={d3} alt='JIEI(THAILAND).CO.,LTD' priority />
@@ -200,14 +195,14 @@ export default function page() {
                     </div>
                 </div>
 
-            </div>
-            <div className="box-topic-tech">
+            </div> */}
+            {/* <div className="box-topic-tech">
                 <div className="box-topic-tech-box">
                     <h1 className='Introduction'>Functional Evaluatio</h1>
                 </div>
 
-            </div>
-             <div className="MaterialsDevelopment">
+            </div> */}
+            {/* <div className="MaterialsDevelopment">
                 <div className="card-MaterialsDevelopment">
                     <div className="image-dev">
                         <Image className="image-dev" src={f1} alt='JIEI(THAILAND).CO.,LTD' priority />
@@ -241,7 +236,7 @@ export default function page() {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
         </div>
     )
 }
