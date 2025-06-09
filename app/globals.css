@@ -31,7 +31,7 @@ li {
 }
 
 .index-intro-box {
-  background-image: linear-gradient(rgba(0, 20, 93, 0.5)60%, rgb(255, 255, 255)), url('../public/jiei.jpg');
+  background-image: linear-gradient(rgba(0, 20, 93, 0.5)60%, rgb(255, 255, 255)), url('/jiei.jpg');
 
   width: 100%;
   background-position: center;
