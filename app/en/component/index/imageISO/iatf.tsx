@@ -32,11 +32,6 @@ const App: React.FC = () => (
                    
                 </div>
 
-
-
-
-
-
             </Image.PreviewGroup>
 
         </div>

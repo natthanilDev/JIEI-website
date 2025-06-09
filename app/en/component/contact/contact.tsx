@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { backend } from './backend'
 // import Logo from '../../../../public/logoNavbar.png'
 import ButtonVM from './buttonVM'
-
+import ButtonViewMap from './buttonViewMap'
 export default function Contact() {
     const headleSubmit = async (e: { preventDefault: () => void; currentTarget: HTMLFormElement | undefined }) => {
         e.preventDefault()
@@ -117,6 +117,7 @@ export default function Contact() {
              
             </div>
         <ButtonVM />
+        <ButtonViewMap />
         </div>
     )
 }
