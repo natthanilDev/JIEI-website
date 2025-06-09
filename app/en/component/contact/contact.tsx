@@ -4,7 +4,7 @@ import Link from 'next/link'
 // import Image from 'next/image'
 import { backend } from './backend'
 // import Logo from '../../../../public/logoNavbar.png'
-import ButtonVM from './buttonVM'
+// import ButtonVM from './buttonVM'
 import ButtonViewMap from './buttonViewMap'
 export default function Contact() {
     const headleSubmit = async (e: { preventDefault: () => void; currentTarget: HTMLFormElement | undefined }) => {
