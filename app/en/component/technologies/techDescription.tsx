@@ -97,7 +97,7 @@ const TechList: React.FC = () => (
                 itemLayout="horizontal"
                 dataSource={data1}
                 renderItem={(item, index) => (
-                    <List.Item>
+                    <List.Item key={index}>
                         <List.Item.Meta
                             title={<p className='title-tech'>{item.title}</p>}
                             description={<p>{item.descriptions}</p>}
@@ -112,7 +112,7 @@ const TechList: React.FC = () => (
                 itemLayout="horizontal"
                 dataSource={data2}
                 renderItem={(item, index) => (
-                    <List.Item>
+                    <List.Item key={index}>
                         <List.Item.Meta
 
                             title={<p className='title-tech'>{item.title}</p>}
@@ -127,7 +127,7 @@ const TechList: React.FC = () => (
                 itemLayout="horizontal"
                 dataSource={data3}
                 renderItem={(item, index) => (
-                    <List.Item>
+                    <List.Item key={index}>
                         <List.Item.Meta
 
                             title={<p className='title-tech'>{item.title}</p>}
