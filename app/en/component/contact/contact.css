@@ -179,7 +179,7 @@ h4 {
     flex-direction: column;
     grid-template-columns: 1fr 1fr;
     margin: 60px auto;
-   
+
 }
 
 .google-map-1 img {
@@ -192,23 +192,26 @@ iframe {
     margin: 30px auto;
     border: none;
 }
-.vitemap-icon{
+
+.vitemap-icon {
     color: red;
     font-size: 22px;
     margin: 0 5px 0 0;
 }
-.View-map{
-      display: flex;
+
+.View-map {
+    display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.button-viewmap{
+
+.button-viewmap {
     border: none;
     padding: 25px 30px;
     cursor: pointer;
     border-radius: 10px;
-   
+
     box-shadow: 0 0 1px #959595;
     display: flex;
     align-items: center;
@@ -217,49 +220,49 @@ iframe {
     color: #fff;
 }
 
-.container-map{
+.container-map {
     position: absolute;
     top: 0;
     width: 100%;
-    
+
 }
 
 
 .popup-map-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
 }
 
 .popup-map-content {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background: #fff;
-  border-radius: 10px;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
 
 }
 
 .close-popup-map {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: #f44336;
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  z-index: 10000;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 10000;
 }
 
 @media screen and (max-width:1024px) {
@@ -300,5 +303,170 @@ iframe {
         gap: 60px;
         text-align: center;
 
+    }
+}
+
+.background-contact {
+    background-image: linear-gradient(rgba(0, 20, 93, 0.5)50%, rgb(255, 255, 255)), url('/jiei.jpg');
+
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-form-contact {
+    background-color: #ffffffa1;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+  
+    border-radius: 10px;
+    padding: 20px 60px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    margin: 0px 0;
+}
+
+.input-form-contact {
+    text-align: center;
+    padding: 20px 60px;
+    border-radius: 0px;
+
+
+}
+
+.sendsubmit {
+    padding: 15px 50px;
+    box-shadow: 0 0 2px var(--text);
+    border: none;
+    background-color: var(--text);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: all ease .35s;
+    
+}
+
+.sendsubmit:hover {
+    background-color: #c80000;
+    box-shadow: 0 0 2px #c80000;
+    
+}
+
+.input {
+    width: 100%;
+}
+
+.contact-box {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.inputText {
+    position: relative;
+}
+
+.labelinput {
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    top: 5px;
+    opacity: 0;
+    transform: translate(5px, 0px);
+}
+
+.name:focus~.labelinput {
+    opacity: 1;
+    transform: translate(5px, -5px);
+    background: none;
+}
+
+
+.name {
+    padding: 15px 30px;
+    width: 100%;
+    margin: 20px 0;
+    resize: none;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 2px #959595;
+    outline-color: #000dc8;
+}
+
+.messageInput:focus~.labelinput {
+    opacity: 1;
+    transform: translate(5px, -10px);
+
+}
+
+.messageInput {
+    padding: 10px 30px;
+    width: 100%;
+    margin: 20px 0;
+    resize: none;
+    height: 200px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 2px #959595;
+    outline-color: #000dc8;
+}
+
+.contactUS {
+    margin: 0px 0 30px 0;
+
+}
+.text-contact-message{
+    padding-bottom: 30px;
+}
+
+.title-form-contact {
+    padding: 50px 20px 0 0px;
+    margin: 0 auto;
+  
+}
+
+.contect-box-link{
+    box-shadow: 0 0 2px #959595;
+    padding: 30px 30px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+}
+.contect-box-link:hover{
+    box-shadow: 0 0 5px #959595;
+    background:none;
+}
+@media screen and (max-width :1024px) {
+    .card-form-contact {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+    .contactUS {
+        text-align: center;
+    }
+
+    .contact-box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .input-form-contact {
+        text-align: center;
+        padding: 20px 0px;
+        border-radius: 20px;
+    }
+
+    .card-form-contact {
+        padding: 20px 30px;
     }
 }

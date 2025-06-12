@@ -44,17 +44,23 @@
 
 .box-topic-pro {
     width: 50%;
-    background-color: var(--text);
-    margin: 50px 0 0 0;
+    transform: translateY(20px);
+    background-color:var(--text);
+    /* padding: 50px 0 0 0; */
     padding: 20px 0;
     color: #fff;
-    border-radius: 0 10px 100px 0;
+    border-radius: 0 0px 100px 0;
     font-size: 10px;
+}
+
+.IntroductionPro {
+    color: #fff;
 }
 
 .box-topic-pro-box {
     width: 70%;
-    margin: 0 auto;
+    margin: 0px auto;
+    /* padding: 30px; */
 
 }
 
@@ -154,7 +160,7 @@
 }
 
 .image-Functional-evaluation {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     cursor: pointer;
 }
@@ -216,6 +222,7 @@
 
     .box-topic-pro {
         width: 80%;
+
     }
 
     .car-product-box {
@@ -230,6 +237,8 @@
 
     .container-image-product {
         grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .image-box img {
@@ -270,5 +279,134 @@
 
     .Introduction {
         font-size: 16px;
+    }
+}
+
+
+
+
+
+
+.image-product-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    text-align: center;
+    width: 90%;
+    margin: 50px auto;
+
+
+}
+
+.img-product_4 {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #626262;
+
+}
+
+.img-product_4 :hover {
+    box-shadow: 0 0 10px #959595;
+}
+
+.img-product {
+    width: 100%;
+    height: auto;
+    padding: 20px 20px;
+
+
+}
+
+.IntroductionPD {
+    color: var(--text);
+    font-size: 22px;
+
+}
+
+.box-PD {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title-PD-h1 {
+    color: #fff;
+}
+
+.title-PD {
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.description-PD {
+    color: #fff;
+    font-size: 16px;
+}
+/* -----------------------------------------------------------product */
+.topic-PD{
+    transform: translateX(30px);
+    margin-bottom:20px;
+}
+.product-list-PD{
+    width: 90%;
+    margin: 0 auto;
+}
+.title-car{
+    font-size: 50px;
+    padding: 30px 0 ;
+    text-align: center;
+    background-color: var(--text);
+  
+    border-radius:20px  20px 0 0 ;
+    color: #fff;
+}
+.title-list{
+    font-size: 30px;
+    padding: 0px 0 20px 20px;
+
+}
+.card-PD{
+    box-shadow: 0 0 2px #959595;
+    margin: 16px 0 0 0;
+}
+.card-PD:hover{
+    box-shadow: 0 0 10px #959595;
+}
+.image-PD{
+width: 100%;
+height: auto;
+}
+.image-PD{
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (max-width:768px) {
+    .image-product-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        width: 80%;
+        margin: 50px auto;
+
+
+    }
+    .product-list-PD{
+        width: 100%;
+    }
+    .title-car{
+    font-size: 30px;
+    width: 90%;
+    margin:  0 auto;
+}
+}
+
+@media screen and (max-width:426px) {
+    .image-product-box {
+
+        grid-template-columns: 1fr;
+
+
+
     }
 }

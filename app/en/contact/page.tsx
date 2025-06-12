@@ -1,9 +1,11 @@
-import Contact from "@/app/en/component/contact/contact"
 
+import Form from "../component/contact/form"
 export default function page() {
   return (
     <div>
-      <Contact />
+      {/* <Contact /> */}
+
+      <Form />
     </div>
   )
 }

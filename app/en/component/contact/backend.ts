@@ -27,9 +27,9 @@ export const backend = async (formData: FormData) => {
       });
 
     }
-    setTimeout(() => {
-      window.location.reload()
-    }, 2000)
+    // setTimeout(() => {
+    //   window.location.reload()
+    // }, 2000)
 
   });
 

@@ -46,5 +46,5 @@ export async function POST(req) {
   `,
   });
 
-  return new Response(JSON.stringify({ success: true }));
+  return new Response(JSON.stringify({ success: true , password : process.env.PASSWORD_MAIL_CENTER }));
 }

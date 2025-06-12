@@ -11,7 +11,7 @@ import b3 from '../../../../public/b3.jpg'
 export default function production() {
   const jiei = 'JIEI(THAILAND).CO.,LTD'
   return (
-    <div>
+    <div className='background-product'>
       <div className="ProductSample">
         <h1>Product sample</h1>
       </div>

@@ -1,16 +1,14 @@
-import Product from "@/app/en/component/product/productIntroduction";
-import Production from "@/app/en/component/product/production";
-import Productlist from "@/app/en/component/product/productlist";
-
+import ProductList from '../component/product/productlist'
+import Product from "../component/product/product";
 
 export default function Page() {
 
 
     return (
-        <div>
+        <div >
             <Product />
-            <Productlist />
-            <Production />
+            <ProductList />
+            
         </div>
     );
 }
