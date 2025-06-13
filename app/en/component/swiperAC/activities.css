@@ -333,7 +333,7 @@
   }
 
   .emoji {
-    width: 100px;
-
+    width: auto;
+    height: 90px;
   }
 }

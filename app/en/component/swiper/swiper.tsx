@@ -11,10 +11,10 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import './swiper.css';
-
-import banner1 from '../../../../public/banner1.png';
-import banner2 from '../../../../public/banner2.png';
-import banner3 from '../../../../public/banner3.png';
+import banner from '../../../../public/introImage4.png';
+import banner1 from '../../../../public/introImage3.png';
+import banner2 from '../../../../public/introImage2.png';
+import banner3 from '../../../../public/introImage1.png';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
@@ -48,6 +48,9 @@ export default function App() {
         onAutoplayTimeLeft={onAutoplayTimeLeft} // Line 45
         className="mySwiper"
       >
+         <SwiperSlide>
+          <Image src={banner} priority alt="jiei(thailand).co.,ltd" />
+        </SwiperSlide>
         <SwiperSlide>
           <Image src={banner1} priority alt="jiei(thailand).co.,ltd" />
         </SwiperSlide>

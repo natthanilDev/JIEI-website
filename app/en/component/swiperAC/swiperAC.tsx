@@ -1,10 +1,10 @@
 'use client'
 
-import Img from '../../../../public/banner1.png'
+
 import Image from 'next/image';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import './activities.css';
+
 import SwiperSlides from './swiper';
 
 export default function SwiperAc() {
@@ -121,7 +121,7 @@ export default function SwiperAc() {
 
                 <div className="card-box-ac">
                     <div className="card-image">
-                        <Image className='image-card-ac' src={Img} alt={alt} />
+                        <Image className='image-card-ac' src={"/banner1.png"} width={100}height={200} alt={alt} />
                     </div>
                     <div className="box-text-container">
                         <div className="text-box-Ac1">
@@ -138,7 +138,7 @@ export default function SwiperAc() {
 
                 <div className="card-box-ac">
                     <div className="card-image">
-                        <Image className='image-card-ac' src={Img} alt={alt} />
+                        <Image className='image-card-ac' src={'/banner1.png'} width={100}height={200} alt={alt} />
                     </div>
                     <div className="box-text-container">
                         <div className="text-box-Ac1">
@@ -156,7 +156,7 @@ export default function SwiperAc() {
 
                 <div className="card-box-ac">
                     <div className="card-image">
-                        <Image className='image-card-ac' src={Img} alt={alt} />
+                        <Image className='image-card-ac' src={'/banner1.png'} width={100}height={200} alt={alt} />
                     </div>
                     <div className="box-text-container">
                         <div className="text-box-Ac1">
