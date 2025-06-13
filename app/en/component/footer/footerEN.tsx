@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Logo from '../../../../public/logoNavbar.png'
 import { PhoneFilled, HomeFilled, BookFilled } from '@ant-design/icons'
 import Map from '../map/map'
+import Link from 'next/link'
 export default function Footer() {
 
 
@@ -41,9 +42,9 @@ export default function Footer() {
                             </a>
                         </li>
                         <li>
-                            <a href="/">
+                            <Link href='/'>
                                 <BookFilled /> TIN : 0215554005118
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
