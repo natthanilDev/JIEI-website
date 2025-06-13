@@ -2,15 +2,14 @@
 
 import React, { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Swiper as SwiperClass } from 'swiper'; // Import SwiperClass for typing
+import { Swiper as SwiperClass } from 'swiper';
 import Image from 'next/image';
 
-// Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import './swiper.css';
 import banner from '../../../../public/introImage4.png';
 import banner1 from '../../../../public/introImage3.png';
 import banner2 from '../../../../public/introImage2.png';

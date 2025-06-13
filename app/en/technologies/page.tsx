@@ -21,8 +21,9 @@ export default function page() {
     return (
         <div>
 
-           
+
             <TechList />
+            <Design />
 
             {/* <div className="box-tech">
                 <div className="tech-discription">
@@ -131,8 +132,8 @@ export default function page() {
                 </div>
             </div> */}
 
-           
-            <Design />
+
+
 
 
 
@@ -160,7 +161,7 @@ export default function page() {
                 </div>
             </div> */}
 
-            
+
             {/* <div className="MaterialsDevelopment">
                 <div className="card-MaterialsDevelopment">
                     <div className="image-dev">

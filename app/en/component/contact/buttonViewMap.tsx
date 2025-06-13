@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { Button, Image } from 'antd';
 import { EnvironmentFilled } from '@ant-design/icons'
-import './contact.css'
 const ButtonViewMap: React.FC = () => {
     const [visible, setVisible] = useState(false);
 

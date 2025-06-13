@@ -2,6 +2,7 @@
 import { usePathname } from "next/navigation"
 import FooterEN from "./footerEN"
 import FooterJP from "./footerJP"
+import './footer.css'
 export default function FooterENJP() {
       const pathname = usePathname();
       

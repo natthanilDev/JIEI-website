@@ -1,7 +1,6 @@
 'use client'
 import React, { useState } from 'react'
 import Link from 'next/link'
-import './navbar.css'
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
 import { usePathname } from 'next/navigation';
 export default function Navlink() {

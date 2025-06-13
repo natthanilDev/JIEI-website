@@ -1,6 +1,5 @@
 import React from 'react';
 import { Image } from 'antd';
-import './iatf.css'
 const alt = 'JIEI(THAILADN).CO.,LTD'
 const App: React.FC = () => (
     <div className='group-image-iso'>

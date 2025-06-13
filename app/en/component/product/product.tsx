@@ -1,6 +1,5 @@
 import React from 'react';
 import { Image } from 'antd';
-import './product.css'
 const alt = 'JIEI(THAILAND).CO.,LTD'
 const Product: React.FC = () => (
     <div >

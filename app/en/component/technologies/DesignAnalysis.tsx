@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import { Card } from 'antd';
-import './tech.css';
 import Image from 'next/image';
 
 const { Meta } = Card;

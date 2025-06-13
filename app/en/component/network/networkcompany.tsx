@@ -1,4 +1,4 @@
-import './networkcompany.css'
+
 import img1 from '../../../../public/img1.png'
 import Image from 'next/image'
 export default function newworkcompany() {

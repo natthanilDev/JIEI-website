@@ -1,5 +1,4 @@
 'use client'
-import './contact.css'
 import { backend } from './backend';
 import Link from 'next/link';
 export default function Form() {

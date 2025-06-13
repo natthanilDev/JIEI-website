@@ -1,4 +1,4 @@
-import '../../../en/component/footer/footer.css'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '../../../../public/logoNavbar.png'

@@ -1,4 +1,4 @@
-import './product.css'
+
 import Image from "next/image";
 import car1 from '../../../../public/imgcar1.jpg'
 import car2 from '../../../../public/imgcar2.jpg'

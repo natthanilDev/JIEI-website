@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import './navbar.css'
 import NavlinkJP from './navLinkJP'
 import Logo from '../../../../public/logoNavbar.png'
 import Link from 'next/link'
