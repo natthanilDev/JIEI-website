@@ -1,6 +1,7 @@
 'use client'
 import { backend } from './backend';
 import Link from 'next/link';
+import Map from './map';
 export default function Form() {
   const headleSubmit = async (e: {
     currentTarget: HTMLFormElement | undefined; preventDefault: () => void;
@@ -60,7 +61,9 @@ export default function Form() {
                 </div>
               </div>
               <div className="input-form-contact">
-
+                  <h1 className="formContact">
+                      FORM CONTACT
+                  </h1>
                 <div className="inputText">
                   <div className="input">
                     <input className='name' name='name' placeholder='ชื่อ-สกุล' type="text" /> <span className='labelinput'>YOUR NAME </span>
@@ -105,11 +108,20 @@ export default function Form() {
 
 
                 <input type="submit" className='sendsubmit' value="Send" />
+
+
+              
+                
               </div>
 
             </div>
 
           </form>
+
+
+            <div className="button-submit-map">
+                  <Map />
+                </div>
         </div>
       </div>
     </div>
