@@ -1,6 +1,5 @@
 'use client'
 import Link from "next/link"
-import './globals.css'
 import './en/component/index/imageISO/iatf.css'
 import App from "@/app/en/component/swiper/swiper"
 import Iatf16949 from "./en/component/index/imageISO/iatf"
